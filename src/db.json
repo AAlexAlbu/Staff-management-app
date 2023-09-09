@@ -1,0 +1,68 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "Constantin",
+      "surname": "Enache",
+      "birth_date": "10.05.1990",
+      "phone_number": "0721359875",
+      "email": "constantin.e@gmail.com",
+      "location": "Copou",
+      "image": "images/Constantin_Enache.jpg",
+      "hiring_date": "23.08.2023",
+      "job": "barista",
+      "salary": "2050"
+    },
+    {
+      "id": 2,
+      "name": "Andreea",
+      "surname": "Buturuga",
+      "birth_date": "10.05.1990",
+      "phone_number": "0721359875",
+      "email": "constantin.e@gmail.com",
+      "location": "UMF",
+      "image": "images/Andreea_Buturuga.jpg",
+      "hiring_date": "23.08.2023",
+      "job": "barista",
+      "salary": "2050"
+    },
+    {
+      "id": 3,
+      "name": "Ionut",
+      "surname": "Cozma",
+      "birth_date": "07.09.1990",
+      "phone_number": "0721359875",
+      "email": "constantin.e@gmail.com",
+      "location": "Iulius",
+      "image": "images/Ionut_Cozma.jpg",
+      "hiring_date": "23.08.2023",
+      "job": "barista",
+      "salary": "2050"
+    },
+    {
+      "id": 4,
+      "name": "Ioana",
+      "surname": "Iliescu",
+      "birth_date": "10.05.1990",
+      "phone_number": "0721359875",
+      "email": "constantin.e@gmail.com",
+      "location": "Palas",
+      "image": "images/Ioana_Iliescu.jpg",
+      "hiring_date": "09.07.2022",
+      "job": "barista",
+      "salary": "2050"
+    },
+    {
+      "id": 5,
+      "name": "Alexandra",
+      "surname": "Albu",
+      "birth_date": "09.07.1988",
+      "phone_number": "0748761206",
+      "email": "albu.c.alexandra@gmail.com",
+      "location": "Birou",
+      "hiring_date": "04.11.2022",
+      "job": "Manager",
+      "salary": "4000"
+    }
+  ]
+}

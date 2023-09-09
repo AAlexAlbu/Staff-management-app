@@ -1,0 +1,13 @@
+div ul {
+    list-style: none;
+}
+
+div ul li {
+    padding: 5px;
+}
+
+.today-card {
+    border: 1px rgb(65, 65, 65) solid;
+    padding: 20px;
+    border-radius: 5px;
+}

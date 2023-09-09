@@ -1,0 +1,12 @@
+
+img {
+    height: 250px;
+    padding: 10px;
+    
+}
+
+.employee-card {
+    border: 1px black solid;
+    width: 348px;
+    border-radius: 5px;
+}

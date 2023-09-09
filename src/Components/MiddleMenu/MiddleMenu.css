@@ -1,0 +1,18 @@
+.middle-menu-container {
+    display: flex;
+    padding: 40px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+h3 {
+    padding: 10px;
+}
+
+.left-buttons {
+    display: flex;
+}
+
+.right-buttons {
+    margin-left: auto;
+}
