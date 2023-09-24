@@ -1,42 +1,22 @@
 import './EmployeeCard.css';
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+import { NavLink } from "react-router-dom"; 
+import { BsPencilSquare } from "react-icons/bs";
 
 const EmployeeCard = (props) => {
 
     return (
         <>
             <div className = 'employee-card'>
-                <Card sx={{ maxWidth: 345 }}>
-                <CardActionArea>
-                    <CardMedia
-                    component="img"
-                    height="140"
-                    image = {props.image}
-                    alt="employee photo"
-                    />
-                    <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                        {props.name}    
-                    </Typography>
-                    <Typography gutterBottom variant="h5" component="div">
-                        {props.surname}    
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        Locatie: {props.location}
-                    </Typography>
-                    </CardContent>
-                </CardActionArea>
-                <CardActions>
-                    <Button size="small" color="primary">
-                    Edit
-                    </Button>
-                </CardActions>
-                </Card>
+                <h2 id = 'name'>{props.surname}</h2>
+                <h2 className = 'mb-4'>{props.name}</h2>
+                <h5>Functie: {props.job}</h5>
+                <h5>Locatie: {props.location}</h5>
+                <NavLink to= {`/employeeEdit/${props.id}`} >
+                    <button>
+                        <BsPencilSquare color='#1b8ba4' size='30px'/>
+                    </button>
+                </NavLink >
             </div>
         </>
     )

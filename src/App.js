@@ -1,12 +1,13 @@
 import './App.css';
-import {  BrowserRouter, createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
+import {  createBrowserRouter, RouterProvider } from 'react-router-dom';
 import WelcomePage from './pages/WelcomePage';
 import EmployeeFormPage from './pages/EmployeeFormPage';
 import SignUpPage from './pages/SignUpPage';
 import Homepage from './pages/Homepage';
 import React from 'react';
-import { Fragment } from 'react';
 import RootPage from './pages/RootPage';
+import EmployeeEditPage from './pages/EmployeeEditPage';
+import EmployeeDetailsPage from './pages/EmployeeDetailsPage';
 
 
 function App() {
@@ -33,6 +34,14 @@ function App() {
           {
             path: 'employeeForm',
             element: <EmployeeFormPage />
+          },
+          {
+            path: 'employeeEdit/:id',
+            element: <EmployeeEditPage />,
+          },
+          {
+            path: 'employeeDetails/:id',
+            element: <EmployeeDetailsPage />
           }
         ]
       },

@@ -1,7 +1,7 @@
 import './Workversaries.css'
 import React from 'react';
 import { useState, useEffect } from 'react';
-import employeeData from '../../../db.json'
+import employeeData from '../../../db/db.json'
 
 const Workversaries = () => {
     const [todayWorkversary, seTodayWorkversary] = useState([]);

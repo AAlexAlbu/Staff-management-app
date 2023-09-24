@@ -1,8 +1,7 @@
 import './Birthdays.css';
 import React from 'react';
 import { useState, useEffect }  from 'react';
-import axios from 'axios';
-import employeeData from '../../../db.json';
+import employeeData from '../../../db/db.json';
 
 const Birthday = () => {
     const [todayEmployees, setTodayEmployees] = useState([]);

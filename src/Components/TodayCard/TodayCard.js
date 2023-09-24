@@ -1,16 +1,17 @@
 import './TodayCard.css';
 import { HiCake, HiSun } from "react-icons/hi";
 import { BiSolidArrowFromRight } from "react-icons/bi";
-import { unstable_composeClasses } from '@mui/material';
 import Birthday from './Birthdays/Birthdays';
 import Workversaries from './Workversaries/Workversaries';
+import EmployeesHoliday from './EmployeesHoliday/EmployeesHoliday';
+import EmployeesLeave from './EmployeesLeave/EmployeesLeave';
 
 
 const TodayCard = () => {
     
     return (
         <>
-        <div className = 'd-flex m-5 today-card flex-column'>
+        <div className = 'd-flex today-card flex-column'>
             <h3>Today</h3>
             <ul className='mt-5'>
                 <li className = 'd-flex flex-row align-items-center'>
@@ -19,15 +20,15 @@ const TodayCard = () => {
                 </li>
                 <li className = 'd-flex flex-row'>
                     < HiSun color = 'yellow' size = '30px'/>
-                    <h4>Employees on holiday</h4>
+                    <EmployeesHoliday />
                 </li>
                 <li className = 'd-flex flex-row align-items-center'>
                     <HiCake color = 'green' size = '30px'/>
                     <Workversaries />
                 </li>
-                <li className = 'd-flex flex-row'>
+                <li className = 'd-flex flex-row align-items-center'>
                     <BiSolidArrowFromRight color = 'red' size = '30px'/>
-                    <h4>Employees on leave notice</h4>
+                    <EmployeesLeave />
                 </li>
             </ul>
         </div>

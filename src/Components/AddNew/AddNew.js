@@ -6,7 +6,7 @@ const AddNew = () => {
     return (
         <>
             <div className = 'add-new-button'>
-                <h3 className = 'fs-2 text'>Add new</h3>
+                <h3>Add new</h3>
                 <NavLink to="/employeeForm">
                     <button>
                         <FiPlusCircle color='#40E0D0' size='40px' />

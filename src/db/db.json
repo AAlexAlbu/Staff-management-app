@@ -8,9 +8,8 @@
       "phone_number": "0721359875",
       "email": "constantin.e@gmail.com",
       "location": "Copou",
-      "image": "images/Constantin_Enache.jpg",
       "hiring_date": "23.08.2023",
-      "job": "barista",
+      "job": "Barista",
       "salary": "2050"
     },
     {
@@ -21,9 +20,8 @@
       "phone_number": "0721359875",
       "email": "constantin.e@gmail.com",
       "location": "UMF",
-      "image": "images/Andreea_Buturuga.jpg",
       "hiring_date": "23.08.2023",
-      "job": "barista",
+      "job": "Barista",
       "salary": "2050"
     },
     {
@@ -34,9 +32,8 @@
       "phone_number": "0721359875",
       "email": "constantin.e@gmail.com",
       "location": "Iulius",
-      "image": "images/Ionut_Cozma.jpg",
       "hiring_date": "23.08.2023",
-      "job": "barista",
+      "job": "Barista",
       "salary": "2050"
     },
     {
@@ -47,9 +44,8 @@
       "phone_number": "0721359875",
       "email": "constantin.e@gmail.com",
       "location": "Palas",
-      "image": "images/Ioana_Iliescu.jpg",
       "hiring_date": "09.07.2022",
-      "job": "barista",
+      "job": "Barista",
       "salary": "2050"
     },
     {
@@ -63,6 +59,30 @@
       "hiring_date": "04.11.2022",
       "job": "Manager",
       "salary": "4000"
+    },
+    {
+      "id": 6,
+      "name": "Larisa",
+      "surname": "Ceanga",
+      "birth_date": "09.20.1990",
+      "phone_number": "0749223589",
+      "email": "lary.ceanga@gmail.com",
+      "location": "Birou",
+      "hiring_date": "05.06.2018",
+      "job": "Web designer",
+      "salary": "5100"
+    },
+    {
+      "id": 7,
+      "name": "Cornel",
+      "surname": "Romaniuc",
+      "birth_date": "09.21.1988",
+      "phone_number": "0721598732",
+      "email": "cornel.romani@gmail.com",
+      "location": "Birou",
+      "hiring_date": "03.02.2023",
+      "job": "Operator facturare",
+      "salary": "3500"
     }
   ]
 }

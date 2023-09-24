@@ -23,7 +23,7 @@ const Navbar = () => {
             listen();
         }
     }, []);
-    
+        
         const userSignOut = () => {
             signOut(auth).then(() => {
                 navigate('/');
