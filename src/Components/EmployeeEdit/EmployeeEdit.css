@@ -33,4 +33,11 @@ header h2 {
 
 .table-container {
     margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.employee-details-btn {
+    font-size: 20px;
+    background: none;
 }

@@ -28,16 +28,6 @@ const EmployeeCards = () => {
             })
     }, [])
 
-    // const filterCards = () => {
-    //     const filtered = cards.filter((card) => {
-    //         const locationMatch = card.location.toLowerCase().includes(filter.toLowerCase());
-    //         const jobTitleMatch = card.job.toLowerCase().includes(filter.toLowerCase());
-
-    //         return locationMatch || jobTitleMatch; 
-    //     })
-    //     setFilteredCards(filtered);
-    // }
-
     const filteredCards = cards.filter((card) => {
         const locationMatch = card.location.toLowerCase().includes(filter.toLowerCase());
         const jobTitleMatch = card.job.toLowerCase().includes(filter.toLowerCase());

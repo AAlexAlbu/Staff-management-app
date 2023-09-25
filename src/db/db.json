@@ -10,7 +10,7 @@
       "location": "Copou",
       "hiring_date": "23.08.2023",
       "job": "Barista",
-      "salary": "2050"
+      "salary": "2050 lei"
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@
       "location": "UMF",
       "hiring_date": "23.08.2023",
       "job": "Barista",
-      "salary": "2050"
+      "salary": "2050 lei"
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
       "location": "Iulius",
       "hiring_date": "23.08.2023",
       "job": "Barista",
-      "salary": "2050"
+      "salary": "2050 lei"
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
       "location": "Palas",
       "hiring_date": "09.07.2022",
       "job": "Barista",
-      "salary": "2050"
+      "salary": "2050 lei"
     },
     {
       "id": 5,
@@ -58,7 +58,7 @@
       "location": "Birou",
       "hiring_date": "04.11.2022",
       "job": "Manager",
-      "salary": "4000"
+      "salary": "4000 lei"
     },
     {
       "id": 6,
@@ -70,7 +70,7 @@
       "location": "Birou",
       "hiring_date": "05.06.2018",
       "job": "Web designer",
-      "salary": "5100"
+      "salary": "5100 lei"
     },
     {
       "id": 7,
@@ -82,7 +82,7 @@
       "location": "Birou",
       "hiring_date": "03.02.2023",
       "job": "Operator facturare",
-      "salary": "3500"
+      "salary": "3500 lei"
     }
   ]
 }

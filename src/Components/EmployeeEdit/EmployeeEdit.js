@@ -7,7 +7,7 @@ const EmployeeEdit = (props) => {
 
     const {id} = useParams();
     const [employeeData, setEmployeeData] = useState();
-    console.log(id);
+    console.log(props.id);
     useEffect(() => {
         axios.get(`http://localhost:3000/employee/${id}`)
             .then((res) => {
@@ -19,7 +19,7 @@ const EmployeeEdit = (props) => {
             })
     }, [id])
 
-    
+    console.log(employeeData)
 
     if (!employeeData) {
         return <p>Loading...</p>;
@@ -32,11 +32,11 @@ const EmployeeEdit = (props) => {
             <h4>{employeeData.location}</h4>
         </header>
         <div className = 'table-container'>
-            <table>
+            <table className = 'table-employee-details'>
                 <tr>
                     <td>
-                        <NavLink to= {`/employeeDetails/${props.id}`} >
-                            <button>
+                        <NavLink to= {`/employeeDetails/${id}`} >
+                            <button className = 'employee-details-btn'>
                                 Detalii angajat
                             </button>
                         </NavLink >
