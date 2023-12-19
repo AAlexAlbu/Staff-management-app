@@ -7,7 +7,7 @@ const EmployeeEdit = (props) => {
 
     const {id} = useParams();
     const [employeeData, setEmployeeData] = useState();
-    console.log(props.id);
+    
     useEffect(() => {
         axios.get(`http://localhost:3000/employee/${id}`)
             .then((res) => {
@@ -43,7 +43,13 @@ const EmployeeEdit = (props) => {
                     </td>
                 </tr>
                 <tr>
-                    <td>Feedback</td>
+                    <td>
+                        <NavLink to= {`/employeeFeedback/${id}`} >
+                            <button className = 'employee-details-btn'>
+                                Feedback
+                            </button>
+                        </NavLink >
+                    </td>
                 </tr>
                 <tr>
                     <td>Detalii salariale</td>

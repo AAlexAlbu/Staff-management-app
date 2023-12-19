@@ -18,3 +18,10 @@ nav ul  {
 nav a img {
     height: 100px;
 }
+
+@media (max-width:800px) {
+    #nav-text {
+        display: none;
+    }
+}
+

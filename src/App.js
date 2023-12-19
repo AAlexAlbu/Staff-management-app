@@ -8,6 +8,7 @@ import React from 'react';
 import RootPage from './pages/RootPage';
 import EmployeeEditPage from './pages/EmployeeEditPage';
 import EmployeeDetailsPage from './pages/EmployeeDetailsPage';
+import EmployeeFeedbackPage from './pages/EmployeeFeedbackPage';
 
 
 function App() {
@@ -42,6 +43,10 @@ function App() {
           {
             path: 'employeeDetails/:id',
             element: <EmployeeDetailsPage />
+          },
+          {
+            path: 'employeeFeedback/:id',
+            element: <EmployeeFeedbackPage />
           }
         ]
       },

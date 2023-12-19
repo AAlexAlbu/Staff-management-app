@@ -5,8 +5,8 @@ import axios from 'axios';
 
 const EmployeeForm = () => {
 
-        const [formClosed, setFormClosed] = useState(false);
-        const [employeeData, setEmployeeData] = useState({
+        const [formClosed, setFormClosed] = useState(false); //urmareste daca formularul este inchis sau nu
+        const [employeeData, setEmployeeData] = useState({ //stocheaza datele introduse in formular
             id: '',
             name: '',
             surname: '',
@@ -19,7 +19,7 @@ const EmployeeForm = () => {
             salary: ''
         });
 
-        const handleCloseForm = async () => {
+        const handleCloseForm = async () => { 
             try {
                 await axios.post("http://localhost:3000/employee", employeeData);
                 setFormClosed(true); // Close the form after successful POST
@@ -28,15 +28,15 @@ const EmployeeForm = () => {
             }
         };
 
-        const handleInputChange = (e) => {
-            const { name, value } = e.target;
+        const handleInputChange = (e) => { //gestioneaza schimbarile din inputurile formularului si actualizeaza employeeData cu noile valori introduse in formular
+            const { name, value } = e.target; //destructuram pentru a extrage valorile din e.target
             setEmployeeData({
                 ...employeeData,
                 [name]: value,
             });
         };
 
-        if (formClosed) {
+        if (formClosed) { //ne trimite pe homepage dupa inchiderea formularului
             window.location.href = "/homepage";
             return null; // Return null to stop rendering the form
         }
