@@ -12,7 +12,9 @@ const EmployeeEdit = (props) => {
         axios.get(`http://localhost:3000/employee/${id}`)
             .then((res) => {
                 const employee = res.data;
+                console.log(res.data);
                 setEmployeeData(employee);
+                
             })
             .catch((error) => {
                 console.error('Error fetching data:', error);
@@ -27,6 +29,7 @@ const EmployeeEdit = (props) => {
 
     return (
         <>
+        <div className="employeeEdit-body">
         <header>
             <h2>{employeeData.name} {employeeData.surname}</h2>
             <h4>{employeeData.location}</h4>
@@ -58,6 +61,7 @@ const EmployeeEdit = (props) => {
                     <td>Concedii</td>
                 </tr>
             </table>
+        </div>
         </div>
         </>
     )

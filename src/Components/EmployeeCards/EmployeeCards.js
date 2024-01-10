@@ -50,6 +50,7 @@ const EmployeeCards = () => {
                         <EmployeeCard 
                                 key = {card.id}
                                 id = {card.id}
+                                image= {card.image}
                                 name = {card.name}
                                 surname = {card.surname}
                                 location = {card.location}
@@ -60,6 +61,7 @@ const EmployeeCards = () => {
                     <EmployeeCard 
                                 key = {card.id}
                                 id = {card.id}
+                                image= {card.image}
                                 name = {card.name}
                                 surname = {card.surname}
                                 location = {card.location}

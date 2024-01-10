@@ -1,3 +1,9 @@
+.employeeEdit-body {
+    background-color: #04293A ;
+    color: white;
+    min-height: 100vh;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -28,7 +34,7 @@ header {
 header h2 {
     font-size: 40px;
     font-weight: bolder;
-    color: rgb(27, 139, 164);
+    color: #fff2b6;
 }
 
 .table-container {
@@ -40,4 +46,5 @@ header h2 {
 .employee-details-btn {
     font-size: 20px;
     background: none;
+    color: white;
 }

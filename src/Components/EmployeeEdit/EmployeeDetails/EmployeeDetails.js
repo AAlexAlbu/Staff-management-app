@@ -33,6 +33,7 @@ const EmployeeDetails = (props) => {
 
     return (
         <>
+        <div className="employeeDetails-body">
         <header>
             <h2>{employeeData.name} {employeeData.surname}</h2>
             <h4>{employeeData.location}</h4>
@@ -43,6 +44,7 @@ const EmployeeDetails = (props) => {
                 <EmployeeEmploymentDetails />
             </div>
             
+        </div>
         </div>
         
         </>

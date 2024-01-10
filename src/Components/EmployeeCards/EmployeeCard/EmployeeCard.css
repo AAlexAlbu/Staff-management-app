@@ -1,18 +1,26 @@
 .employee-card {
-    border: 1px rgb(161, 161, 161) solid;
+    
+    background-color:#064663;
     width: 345px;
     border-radius: 5px;
     margin: 20px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    -webkit-box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.75);
 }
 
+.employee-card button {
+    background-color: rgb(27, 139, 164, 0);
+}
 #name {
-    color: #1b8ba4;
+    color:#fff2b6;
     font-weight: bolder;
     font-size: 40px;
 }
 
 .edit-button {
-    background-color:  rgb(254, 251, 238);
+    background-color:  rgb(254, 251, 238, 1);
 }

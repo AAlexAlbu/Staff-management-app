@@ -2,10 +2,10 @@
     display: flex;
     align-items: center;
     margin-right: 10px;
-
+    color: white;
 }
 
 button {
     border: none;
-    background-color: #ffff;
+    background-color: rgb(255, 255, 255, 0);
 }

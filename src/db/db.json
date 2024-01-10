@@ -2,6 +2,7 @@
   "employee": [
     {
       "id": 1,
+      "image": "images/Constantin_Andreescu.jpg",
       "name": "Constantin",
       "surname": "Andreescu",
       "birth_date": "11.04.1990",
@@ -22,6 +23,7 @@
     },
     {
       "id": 2,
+      "image": "images/Andreea_Buturuga.jpg",
       "name": "Andreea",
       "surname": "Buturuga",
       "birth_date": "10.05.1990",
@@ -34,11 +36,24 @@
       "dosar_la_locatie": " ",
       "feedback": [
         "29.11.2023\n\nYou consistently communicate effectively and respectfully with your teammates, which is an essential trait for our team’s success.",
-        "29.11.2023\n\nThank you for putting in the extra effort to ensure that all team members understand their tasks and are on the same page. It truly makes a difference."
+        "29.11.2023\n\nThank you for putting in the extra effort to ensure that all team members understand their tasks and are on the same page. It truly makes a difference.",
+        "kghjkhjkh",
+        "fyikyku",
+        "45y456y5y456y",
+        "56356767356",
+        "mama are mere"
+      ],
+      "savedFeedback": [
+        "29.11.2023\n\nYou consistently communicate effectively and respectfully with your teammates, which is an essential trait for our team’s success.",
+        "29.11.2023\n\nThank you for putting in the extra effort to ensure that all team members understand their tasks and are on the same page. It truly makes a difference.",
+        "kghjkhjkh",
+        "fyikyku",
+        "45y456y5y456y"
       ]
     },
     {
       "id": 3,
+      "image": "images/Ioana_Iliescu.jpg",
       "name": "Ioana",
       "surname": "Iliescu",
       "birth_date": "10.05.1990",
@@ -55,6 +70,7 @@
     },
     {
       "id": 4,
+      "image": "images/Alexandra_Albu.jpg",
       "name": "Alexandra",
       "surname": "Albu",
       "birth_date": "09.07.1988",
@@ -68,6 +84,7 @@
     },
     {
       "id": 5,
+      "image": "images/Ceanga_Larisa.jpg",
       "name": "Larisa",
       "surname": "Ceanga",
       "birth_date": "09.20.1990",
@@ -81,6 +98,7 @@
     },
     {
       "id": 6,
+      "image": "images/Cornel_Romaniuc.jpg",
       "name": "Cornel",
       "surname": "Romaniuc",
       "birth_date": "11.29.1988",
@@ -94,6 +112,7 @@
     },
     {
       "id": 7,
+      "image": "images/Dragos_Ionescu.jpg",
       "name": "Dragos",
       "surname": "Ionescu",
       "birth_date": "10.12.2000",
@@ -107,6 +126,7 @@
     },
     {
       "id": 8,
+      "image": "images/Ionescu_Laura.jpg",
       "name": "Laura",
       "surname": "Ionescu",
       "birth_date": "10.30.2000",
@@ -120,6 +140,7 @@
     },
     {
       "id": 9,
+      "image": "images/Iulian_Cozoroc.jpg",
       "name": "Iulian",
       "surname": "Cozoroc",
       "birth_date": "10.31.2023",
@@ -129,19 +150,10 @@
       "hiring_date": "11.05.2021",
       "job": "Barista",
       "salary": "2350",
-      "dosar_la_locatie": "Nu"
-    },
-    {
-      "id": 10,
-      "name": "vdfvdfv",
-      "surname": "fvvfvdfv",
-      "birth_date": "27.08.1988",
-      "phone_number": "0748761206",
-      "email": "albu.c.alexandra@gmail.com",
-      "location": "Birou",
-      "hiring_date": "04.11.2022",
-      "job": "Manager",
-      "salary": "4000"
+      "dosar_la_locatie": "Nu",
+      "feedback": [
+        "tgjku,ghjghjg"
+      ]
     }
   ]
 }

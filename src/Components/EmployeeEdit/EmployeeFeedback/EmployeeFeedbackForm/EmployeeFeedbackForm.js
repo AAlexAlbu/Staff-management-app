@@ -22,7 +22,7 @@ const EmployeeFeedbackForm = (props) => {
         });
 
         setSavedFeedback([...savedFeedback, input]);
-        
+        console.log(input);
         axios
         .put(`http://localhost:3000/employee/${id}`, {
             ...employeeData,

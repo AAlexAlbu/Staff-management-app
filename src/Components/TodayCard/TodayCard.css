@@ -7,9 +7,12 @@ div ul li {
 }
 
 .today-card {
-    border: 1px rgb(65, 65, 65) solid;
     padding: 20px;
     border-radius: 5px;
-    background-color: rgb(254, 251, 238);
+    background-color:#064663;
     margin: 20px 20px 50px 20px;
+    color: white;
+    -webkit-box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.75);
 }
